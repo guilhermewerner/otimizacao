@@ -17,10 +17,10 @@ def grad_f(x):
 # Parâmetros do método
 alpha = 0.1  # Tamanho do passo
 tolerance = 1e-4  # Tolerância
-max_iter = 1000  # Máximo de iterações
+max_iter = 1  # Máximo de iterações
 
 # Valor inicial
-x = np.array([1.0, 1.0, 1.0])
+x = np.array([0.5, 0.1, 0.0])
 history = [x]  # Histórico das iterações
 
 # Método do Gradiente
